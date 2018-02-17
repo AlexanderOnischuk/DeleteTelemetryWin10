@@ -1,0 +1,1 @@
+# DeleteTelemetryWin10
