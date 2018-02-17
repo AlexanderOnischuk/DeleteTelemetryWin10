@@ -1,5 +1,5 @@
 @echo off
-COLOR 0C
+color 0C
 echo  Created by ALExorON (c)
 echo  Ver. 1.0.0, 16.FEB.2018
 echo ---------------------------
@@ -389,7 +389,7 @@ echo ---------------------------
 
 :: Clear main telemetry file
   echo "" > C:\ProgramData\Microsoft\Diagnosis\ETLLogs\AutoLogger\AutoLogger-Diagtrack-Listener.etl
-:: Лучше удалить ВСЕ ПРАВА!!! на чтение каталога(AutoLogger) с этим файлом, в этом случае система уже никак не сможет что-то записывать когда-либо
+:: Г‹ГіГ·ГёГҐ ГіГ¤Г Г«ГЁГІГј Г‚Г‘Г… ГЏГђГЂГ‚ГЂ!!! Г­Г  Г·ГІГҐГ­ГЁГҐ ГЄГ ГІГ Г«Г®ГЈГ (AutoLogger) Г± ГЅГІГЁГ¬ ГґГ Г©Г«Г®Г¬, Гў ГЅГІГ®Г¬ Г±Г«ГіГ·Г ГҐ Г±ГЁГ±ГІГҐГ¬Г  ГіГ¦ГҐ Г­ГЁГЄГ ГЄ Г­ГҐ Г±Г¬Г®Г¦ГҐГІ Г·ГІГ®-ГІГ® Г§Г ГЇГЁГ±Г»ГўГ ГІГј ГЄГ®ГЈГ¤Г -Г«ГЁГЎГ®
 
 :: Delete telemetry SCHTASKS
   SCHTASKS /Delete /TN "\Microsoft\Windows\Windows Error Reporting\QueueReporting" /F
